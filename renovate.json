@@ -6,7 +6,7 @@
     ],
     "logLevelRemap": [
         {
-            "matchMessage": "/.*custom.*/",
+            "matchMessage": "/.*Custom.*/",
             "newLogLevel": "info"
         }
     ],
