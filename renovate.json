@@ -6,7 +6,7 @@
     ],
     "logLevelRemap": [
         {
-            "matchMessage": "/^Custom manager fetcher/",
+            "matchMessage": "/.*/",
             "newLogLevel": "info"
         }
     ],
