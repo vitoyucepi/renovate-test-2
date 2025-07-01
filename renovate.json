@@ -6,7 +6,7 @@
     ],
     "logLevelRemap": [
         {
-            "matchMessage": "/.*/",
+            "matchMessage": "/.*dante.*/",
             "newLogLevel": "info"
         }
     ],
