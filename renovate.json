@@ -13,10 +13,7 @@
   "customDatasources": {
     "dante": {
       "defaultRegistryUrlTemplate": "https://www.inet.no/dante/download.html",
-      "format": "html",
-      "transformTemplates": [
-        "{ \"releases\": $.releases.{ \"version\": $match(version, /^dante-(.+)\\.tar\\.gz$/).groups[0] }[version] }"
-      ]
+      "format": "html"
     }
   }
 }
