@@ -13,7 +13,10 @@
   "customDatasources": {
     "prosody-modules": {
       "defaultRegistryUrlTemplate": "https://modules.prosody.im/rocks/",
-      "format": "html"
+      "format": "html",
+      "transformTemplates": [
+        "{ \"releases\": $.releases.{ \"version\": $match(version, /^.*?-(.+)-1\\.rockspec$/).groups[0] }[version] }"
+      ]
     }
   }
 }
