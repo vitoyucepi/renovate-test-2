@@ -15,7 +15,7 @@
       "defaultRegistryUrlTemplate": "https://modules.prosody.im/rocks/",
       "format": "html",
       "transformTemplates": [
-        "{ \"releases\": $.releases.{ \"version\": $match(version, /^.*?-(.+)-1\\.rockspec$/).groups[0] }[version] }"
+        "{ \"releases\": $.releases.{ \"version\": $match(version, /^.*?-(.+)-1\\.rockspec$/).groups[0], \"package\": $match(version, /^(.*?)-.*\\.rockspec$/).groups[0] }[version] }"
       ]
     }
   }
