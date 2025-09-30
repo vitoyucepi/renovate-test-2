@@ -5,4 +5,4 @@ ARG PROSODY_MOD_CLOUD_NOTIFY_VERSION=100
 # renovate: datasource=custom.prosody-modules depName=mod_vcard_muc
 ARG PROSODY_MOD_VCARD_MUC_VERSION=10
 # renovate: datasource=custom.prosody-modules depName=mod_measure_process
-ARG PROSODY_MOD_MEASURE_PROCESS_VERSION=4
+ARG PROSODY_MOD_MEASURE_PROCESS_VERSION=3
